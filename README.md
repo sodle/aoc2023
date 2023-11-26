@@ -16,4 +16,4 @@
 
 ### Puzzle input
  - Input for test cases is located in `src/test/resources`
-   - "Real" puzzle input is located in `src/main/resources`
+ - "Real" puzzle input is located in `src/main/resources`
