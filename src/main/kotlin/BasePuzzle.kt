@@ -1,5 +1,5 @@
 open class BasePuzzle<InputType, OutputTypePart1, OutputTypePart2> {
-    fun readFile(filename: String): List<String> {
+    fun readLines(filename: String): List<String> {
         return this::class.java.getResource(filename)!!.readText().lines()
     }
 
