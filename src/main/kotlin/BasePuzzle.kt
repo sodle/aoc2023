@@ -1,4 +1,8 @@
 open class BasePuzzle<InputType, OutputTypePart1, OutputTypePart2> {
+    fun readFile(filename: String): String {
+        return this::class.java.getResource("/day01.txt")!!.readText()
+    }
+
     open fun getPuzzleInput(): InputType {
         TODO("Not yet implemented")
     }
