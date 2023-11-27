@@ -3,7 +3,8 @@
 
 ### Toolchain
  - Kotlin 1.9
- - JRE 20
+ - JDK 21
+ - JUnit 5
  - IntelliJ IDEA
 
 ### Run a day's puzzles
