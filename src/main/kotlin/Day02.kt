@@ -23,8 +23,8 @@ class Day02: BasePuzzle<List<Game>, Int, Int>() {
     }
 
     override fun part1(input: List<Game>): Int {
-        return input.filter { game ->
-            game.red.max() <= 12 && game.green.max() <= 13 && game.blue.max() <= 14
+        return input.filter {
+            it.red.max() <= 12 && it.green.max() <= 13 && it.blue.max() <= 14
         }.sumOf { it.id }
     }
 
