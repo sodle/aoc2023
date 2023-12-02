@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ec97712-0a05-4983-9fc7-43f54f6818f4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day02.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Day02.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/TestDay02.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/TestDay02.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,13 +59,12 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.Day02">
-    <configuration name="TestDay01.testPart2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestDay02">
+    <configuration name="TestDay02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aoc2023" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestDay01" />
-      <option name="METHOD_NAME" value="testPart2" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="TestDay02" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestDay02" />
         <item itemvalue="Kotlin.Day02" />
         <item itemvalue="JUnit.TestDay02.testPart2" />
         <item itemvalue="JUnit.TestDay02.testPart1" />
         <item itemvalue="JUnit.TestDay02.testGetInput" />
-        <item itemvalue="JUnit.TestDay01.testPart2" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +125,7 @@
       <option name="presentableId" value="Default" />
       <updated>1700879922325</updated>
       <workItem from="1700879923321" duration="16470000" />
-      <workItem from="1701442236093" duration="7810000" />
+      <workItem from="1701442236093" duration="9087000" />
     </task>
     <servers />
   </component>

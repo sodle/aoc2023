@@ -1,14 +1,20 @@
+val gameIdRegex = "Game (\\d+)".toRegex()
+val redRegex = "(\\d+) red".toRegex()
+val greenRegex = "(\\d+) green".toRegex()
+val blueRegex = "(\\d+) blue".toRegex()
+
 class Game(gameString: String) {
-    val id = "Game (\\d+)".toRegex().find(gameString)?.destructured?.toList()?.first()?.toInt()!!
-    val blue = "(\\d+) blue".toRegex().findAll(gameString).map {
-        it.destructured.toList().first().toInt()
+    val id = gameIdRegex.find(gameString)!!.destructured.component1().toInt()
+
+    val blue = blueRegex.findAll(gameString).map {
+        it.destructured.component1().toInt()
     }.toList()
-    val green = "(\\d+) green".toRegex().findAll(gameString).map {
-        it.destructured.toList().first().toInt()
-    }
-    val red = "(\\d+) red".toRegex().findAll(gameString).map {
-        it.destructured.toList().first().toInt()
-    }
+    val green = greenRegex.findAll(gameString).map {
+        it.destructured.component1().toInt()
+    }.toList()
+    val red = redRegex.findAll(gameString).map {
+        it.destructured.component1().toInt()
+    }.toList()
 }
 
 class Day02: BasePuzzle<List<Game>, Int, Int>() {

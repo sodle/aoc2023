@@ -8,9 +8,9 @@ class TestDay02 {
     fun testGetInput() {
         val input = puzzle.getPuzzleInput()
         assertEquals(1, input.first().id)
-        assertEquals(9, input.first().blue)
-        assertEquals(5, input.first().red)
-        assertEquals(4, input.first().green)
+        assertEquals(listOf(3, 6), input.first().blue)
+        assertEquals(listOf(4, 1), input.first().red)
+        assertEquals(listOf(2, 2), input.first().green)
     }
 
     @Test
