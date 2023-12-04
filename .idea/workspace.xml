@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ec97712-0a05-4983-9fc7-43f54f6818f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Day03.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day03.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/TestDay03.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/day03.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Day04.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day04.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/TestDay04.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/day04.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,48 +62,53 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.Day03">
-    <configuration name="TestDay03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestDay04">
+    <configuration name="TestDay04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aoc2023" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestDay03" />
+      <option name="MAIN_CLASS_NAME" value="TestDay04" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDay03.testGetInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDay04.testGetInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aoc2023" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestDay03" />
+      <option name="MAIN_CLASS_NAME" value="TestDay04" />
       <option name="METHOD_NAME" value="testGetInput" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDay03.testPart1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDay04.testPart1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aoc2023" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestDay03" />
+      <option name="MAIN_CLASS_NAME" value="TestDay04" />
       <option name="METHOD_NAME" value="testPart1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDay03.testPart2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDay04.testPart2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aoc2023" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestDay03" />
+      <option name="MAIN_CLASS_NAME" value="TestDay04" />
       <option name="METHOD_NAME" value="testPart2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day03" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day03" />
+    <configuration name="Day04" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day04" />
       <module name="aoc2023" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Day03" />
-        <item itemvalue="JUnit.TestDay03.testPart2" />
-        <item itemvalue="JUnit.TestDay03" />
-        <item itemvalue="JUnit.TestDay03.testPart1" />
-        <item itemvalue="JUnit.TestDay03.testGetInput" />
+        <item itemvalue="JUnit.TestDay04" />
+        <item itemvalue="Kotlin.Day04" />
+        <item itemvalue="JUnit.TestDay04.testPart2" />
+        <item itemvalue="JUnit.TestDay04.testGetInput" />
+        <item itemvalue="JUnit.TestDay04.testPart1" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +133,7 @@
       <option name="presentableId" value="Default" />
       <updated>1700879922325</updated>
       <workItem from="1700879923321" duration="16470000" />
-      <workItem from="1701442236093" duration="17483000" />
+      <workItem from="1701442236093" duration="23369000" />
     </task>
     <servers />
   </component>
