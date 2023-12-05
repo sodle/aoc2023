@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ec97712-0a05-4983-9fc7-43f54f6818f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Day04.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day04.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/TestDay04.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/day04.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Day05.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day05.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/TestDay05.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/day05.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +22,7 @@
         <option value="Class" />
         <option value="Kotlin Class" />
         <option value="Kotlin Data Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -40,34 +41,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.language.Kotlin&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/sodle/IdeaProjects/aoc2023/src/main/kotlin",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.language.Kotlin",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestDay04">
+  <component name="RunManager" selected="Kotlin.Day05">
     <configuration name="TestDay04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aoc2023" />
       <option name="PACKAGE_NAME" value="" />
@@ -77,38 +90,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDay04.testGetInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDay05.getPuzzleInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aoc2023" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestDay04" />
-      <option name="METHOD_NAME" value="testGetInput" />
+      <option name="MAIN_CLASS_NAME" value="TestDay05" />
+      <option name="METHOD_NAME" value="getPuzzleInput" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDay04.testPart1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDay05.part1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aoc2023" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestDay04" />
-      <option name="METHOD_NAME" value="testPart1" />
+      <option name="MAIN_CLASS_NAME" value="TestDay05" />
+      <option name="METHOD_NAME" value="part1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDay04.testPart2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDay05.part2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aoc2023" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestDay04" />
-      <option name="METHOD_NAME" value="testPart2" />
+      <option name="MAIN_CLASS_NAME" value="TestDay05" />
+      <option name="METHOD_NAME" value="part2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day04" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day04" />
+    <configuration name="Day05" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day05" />
       <module name="aoc2023" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Day05" />
+        <item itemvalue="JUnit.TestDay05.part2" />
+        <item itemvalue="JUnit.TestDay05.part1" />
+        <item itemvalue="JUnit.TestDay05.getPuzzleInput" />
         <item itemvalue="JUnit.TestDay04" />
-        <item itemvalue="Kotlin.Day04" />
-        <item itemvalue="JUnit.TestDay04.testPart2" />
-        <item itemvalue="JUnit.TestDay04.testGetInput" />
-        <item itemvalue="JUnit.TestDay04.testPart1" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +146,7 @@
       <option name="presentableId" value="Default" />
       <updated>1700879922325</updated>
       <workItem from="1700879923321" duration="16470000" />
-      <workItem from="1701442236093" duration="23369000" />
+      <workItem from="1701442236093" duration="30041000" />
     </task>
     <servers />
   </component>
