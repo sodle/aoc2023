@@ -1,4 +1,4 @@
-data class Number(
+data class SchematicNumber(
     val y: Int,
     val x: List<Int>,
     val n: Int,
@@ -10,7 +10,7 @@ data class Number(
 
 class Schematic(schematicLines: List<String>) {
     var symbols = mutableMapOf<Pair<Int, Int>, Char>()
-    var numbers = mutableListOf<Number>()
+    var numbers = mutableListOf<SchematicNumber>()
 
     init {
         schematicLines.forEachIndexed { y, line ->
@@ -19,7 +19,7 @@ class Schematic(schematicLines: List<String>) {
 
             fun resetNumber() {
                 if (numberInProgress.isNotEmpty()) {
-                    numbers.addLast(Number(y, numberCoordinates.toList(), numberInProgress.toInt()))
+                    numbers.addLast(SchematicNumber(y, numberCoordinates.toList(), numberInProgress.toInt()))
                 }
                 numberInProgress = ""
                 numberCoordinates.clear()
@@ -41,7 +41,7 @@ class Schematic(schematicLines: List<String>) {
         }
     }
 
-    fun isPartNumber(n: Number): Boolean {
+    fun isPartNumber(n: SchematicNumber): Boolean {
         val symbolCoordinates = symbols.keys.toSet()
 
         val y = n.y
@@ -71,7 +71,7 @@ class Schematic(schematicLines: List<String>) {
         
         val stars = symbols.filter { it.value == '*' }.map { it.key }
         stars.forEach { star ->
-            val neighbors = mutableSetOf<Number>()
+            val neighbors = mutableSetOf<SchematicNumber>()
             neighborCoordinates(star.first, star.second).forEach { coordinate ->
                 neighbors += numbers.filter { it.occupies(coordinate.first, coordinate.second) }
             }
