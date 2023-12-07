@@ -19,7 +19,7 @@ class Schematic(schematicLines: List<String>) {
 
             fun resetNumber() {
                 if (numberInProgress.isNotEmpty()) {
-                    numbers.addLast(SchematicNumber(y, numberCoordinates.toList(), numberInProgress.toInt()))
+                    numbers.add(SchematicNumber(y, numberCoordinates.toList(), numberInProgress.toInt()))
                 }
                 numberInProgress = ""
                 numberCoordinates.clear()
@@ -30,7 +30,7 @@ class Schematic(schematicLines: List<String>) {
                     resetNumber()
                 } else if (c.isDigit()) {
                     numberInProgress += c
-                    numberCoordinates.addLast(x)
+                    numberCoordinates.add(x)
                 } else {
                     symbols[Pair(x, y)] = c
                     resetNumber()
@@ -77,7 +77,7 @@ class Schematic(schematicLines: List<String>) {
             }
 
             if (neighbors.size == 2) {
-                gears.addLast(neighbors.first().n * neighbors.last().n)
+                gears.add(neighbors.first().n * neighbors.last().n)
             }
         }
         

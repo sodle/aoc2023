@@ -35,7 +35,7 @@ class Day04: BasePuzzle<List<Scratcher>, Int, Int>() {
         fun processCopies(scratcher: Scratcher) {
             val score = scratcher.scratchedNumbers.intersect(scratcher.winningNumbers).size
             (scratcher.index..<scratcher.index + score).forEach { idx ->
-                copies.addLast(input[idx])
+                copies.add(input[idx])
             }
         }
 
