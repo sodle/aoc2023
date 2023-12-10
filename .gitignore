@@ -25,5 +25,7 @@ bin/
 ### VS Code ###
 .vscode/
 
+src/main/resources/*.txt
+
 ### Mac OS ###
 .DS_Store
