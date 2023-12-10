@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ec97712-0a05-4983-9fc7-43f54f6818f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Day10.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/TestDay10.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/day10.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5ec97712-0a05-4983-9fc7-43f54f6818f4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -182,7 +174,7 @@
       <workItem from="1700879923321" duration="16470000" />
       <workItem from="1701442236093" duration="30715000" />
       <workItem from="1701787649422" duration="11612000" />
-      <workItem from="1701929798275" duration="31462000" />
+      <workItem from="1701929798275" duration="31764000" />
     </task>
     <servers />
   </component>
