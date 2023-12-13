@@ -1,5 +1,3 @@
-import kotlin.math.min
-
 class Day11: BasePuzzle<List<String>, Long, Long>() {
     override fun getPuzzleInput(): List<String> {
         return readLines("day11.txt").filter { it.isNotBlank() }
