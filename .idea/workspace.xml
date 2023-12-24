@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ec97712-0a05-4983-9fc7-43f54f6818f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Day16.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5ec97712-0a05-4983-9fc7-43f54f6818f4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +68,7 @@
     "Kotlin.Day13.executor": "Debug",
     "Kotlin.Day14.executor": "Run",
     "Kotlin.Day15.executor": "Debug",
-    "Kotlin.Day16.executor": "Debug",
+    "Kotlin.Day16.executor": "Run",
     "Repository.Attach.Annotations": "true",
     "Repository.Attach.JavaDocs": "true",
     "Repository.Attach.Sources": "true",
@@ -179,6 +176,7 @@
       <workItem from="1701787649422" duration="11612000" />
       <workItem from="1701929798275" duration="44596000" />
       <workItem from="1702420421656" duration="76914000" />
+      <workItem from="1703429373387" duration="114000" />
     </task>
     <servers />
   </component>
